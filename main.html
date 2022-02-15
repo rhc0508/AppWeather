@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp_Main</title>
+    <link rel="stylesheet" href="./css/weather-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main_res.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <section id="user_select">
+        <h2>현재 날씨 정보 (<span class="lon"></span>, <span class="lat"></span>)</h2>
+        <div class="cities">
+            <button>Seoul</button>
+            <button>Busan</button>
+            <button>Daegu</button>
+            <button>Incheon</button>
+            <button>Gwangju</button>
+            <button>Daejeon</button>
+            <button>Ulsan</button>
+            <button>Gangneung</button>
+            <button>Jeju</button>
+            <button>London</button>
+            <button>New York</button>
+            <button>Madrid</button>
+            <button>Paris</button>
+            <button>Australia</button>
+            <button>Tokyo</button>
+        </div>
+        <!-- 검색바 -->
+        <div class="search">
+            <input type="search" id="search_box" autocomplete="off">
+            <!-- <button>검색</button> -->
+            <button><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+    </section>
+
+
+    <section id="weather">
+        <ul>
+            <!-- <li>
+                <div class="top">
+                    <div class="cur_icon">
+                        <i class="wi "></i>
+                    </div>
+                    <div class="info">
+                        <p class="temp"><span class="degree">12</span>&nbsp; ℃</p>
+                        <p class="interTemp">
+                            최저 <span class="minTemp">9</span>℃ /
+                            최고 <span class="maxTemp">15</span>℃
+                        </p>
+                        <h4>Snow</h4>
+                        <p class="location"><span class="city">Busan</span>, <span class="nation">KR</span></p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="wind">
+                        <i class="wi wi-strong-wind"></i>
+                        <p><span>0.00</span>&nbsp;m/s</p>
+                    </div>
+                    <div class="humidity">
+                        <i class="wi wi-humidity"></i>
+                        <p><span>00</span>&nbsp;%</p>
+                    </div>
+                    <div class="cloud">
+                        <i class="wi wi-cloudy"></i>
+                        <p><span>0.00</span>&nbsp;%</p>
+                    </div>
+                </div>
+            </li> -->
+        </ul>
+    </section>
+    
+</body>
+</html>

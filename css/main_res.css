@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+@media (max-width : 1199px){
+    #weather{width: 100%;}
+}
+@media (max-width : 991px){
+    #weather ul li{width: calc(100% / 2 - 20px);}
+}
+@media (max-width : 767px){
+    #weather ul li{width: calc(100% - 20px);}
+}
+@media (max-width : 420px){
+    #user_select .search{width: 90%;}
+}

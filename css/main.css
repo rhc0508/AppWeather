@@ -1,0 +1,154 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{box-sizing: border-box; font-family: 'Poppins', 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2,h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+/* 사용자 설정 */
+#user_select{
+    /* padding: 20px 0; */
+    text-align: center;
+}
+#user_select h2{
+    background-color: #2d8fd5;
+    /* background-color: #fff; */
+    font-size: 24px;
+    color: #fff;
+    line-height: 1;
+    padding: 20px 0;
+}
+#user_select .cities{
+    padding: 20px 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#user_select .cities button{
+    padding: 8px 16px;
+    border: 1px solid #2d8fd5;
+    border-radius: 19px;
+    color: #2d8fd5;
+    background-color: #fff;
+    margin: 0 5px 10px;
+    cursor: pointer;
+}
+#user_select .cities button:hover{
+    background-color: #2d8fd5;
+    color: #fff;
+}
+
+#user_select .search{
+    width: 400px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#user_select .search input{
+    width: calc(100% - 36px);
+    border: none;
+    border-bottom: 1px solid #555;
+    height: 40px;
+    padding: 0 10px;
+    outline-color: #006fbe;
+}
+#user_select .search button{
+    display: block;
+    border: none;
+    font-size: 24px;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #555;
+    cursor: pointer;
+}
+
+
+
+
+
+/* 날씨 리스트 */
+#weather{
+    width:1200px; 
+    margin: 0 auto;
+    background-color: #b5d8f0;
+    padding: 20px 0 0;
+}
+#weather ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#weather ul li{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.2), 2px 2px 4px rgba(0,0,0,0.2);
+    /* color : #31525b */
+}
+#weather ul li .top{
+    padding: 20px 0;
+    background-color: #2d8fd5;
+    display: flex;
+    align-items: center;
+}
+#weather ul li .top > div{
+    width: 50%;
+    padding: 0 20px;
+}
+#weather ul li .top .cur_icon{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+#weather ul li .top .info{
+    text-align: right;
+    color: #fff;
+}
+#weather ul li .top .info .temp{
+    font-size: 16px;
+}
+#weather ul li .top .info .temp .degree{
+    font-size: 24px;
+}
+#weather ul li .top .info .interTemp{
+    font-size: 13px;
+}
+#weather ul li .top .info .interTemp span{
+    font-size: 15px;
+}
+#weather ul li .top .info h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+#weather ul li .top .info .location{
+    font-size: 14px;
+}
+
+#weather ul li .bottom{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#weather ul li .bottom > div{
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+#weather ul li .bottom > div > i{
+    font-size: 18px;
+    color: #2d8fd5;
+}
+#weather ul li .bottom > div > p{
+    line-height: 1.6;
+}
+

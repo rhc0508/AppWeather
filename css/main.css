@@ -53,6 +53,7 @@ a{text-decoration: none;}
 }
 #user_select .search input{
     width: calc(100% - 36px);
+    background-color: #fff;
     border: none;
     border-bottom: 1px solid #555;
     height: 40px;

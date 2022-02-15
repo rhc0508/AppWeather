@@ -156,12 +156,12 @@ $(document).ready(function(){
     navigator.geolocation.getCurrentPosition((position) => {
 
         const latitude = position.coords.latitude;
-        const longtitude = position.coords.longitude;
+        const longitude = position.coords.longitude;
         console.log(latitude); //위도
-        console.log(longtitude); //경도(동경 135도)
+        console.log(longitude); //경도(동경 135도)
 
         $.ajax({
-            url : `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtitude}&appid=b1095e725c3b8f639dd108daa43ac5c9`,
+            url : `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=b1095e725c3b8f639dd108daa43ac5c9`,
             dataType : "json",
             success : function(data){
                 // console.log(data);

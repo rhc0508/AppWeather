@@ -43,16 +43,17 @@ a{text-decoration: none;}
 }
 
 #user_select .search{
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     /* padding: 10px; */
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 #user_select .search input{
-    width: calc(100% - 36px);
+    width: 354px;
     background-color: #fff;
     border: none;
     border-bottom: 1px solid #555;

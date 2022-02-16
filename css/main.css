@@ -59,6 +59,8 @@ a{text-decoration: none;}
     height: 40px;
     padding: 0 10px;
     outline-color: #006fbe;
+    -webkit-appearance: none;
+    appearance: none;
 }
 #user_select .search button{
     border: none;

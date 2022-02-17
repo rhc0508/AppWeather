@@ -53,9 +53,10 @@ a{text-decoration: none;}
     align-items: center;
 }
 #user_select .search input{
-    width: 354px;
+    width: 364px;
     background-color: #fff;
     border: none;
+    border-radius: 0;
     border-bottom: 1px solid #555;
     height: 40px;
     padding: 0 10px;
